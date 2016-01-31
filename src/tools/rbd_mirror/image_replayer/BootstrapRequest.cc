@@ -254,7 +254,7 @@ void BootstrapRequest<I>::open_remote_image() {
 template <typename I>
 void BootstrapRequest<I>::handle_open_remote_image(int r) {
   // deduce the class type for the journal to support unit tests
-  typedef typename std::decay<decltype(*I::journal)>::type Journal;
+  typedef typename std::decay<librbd::Journal<I> >::type Journal;
 
   dout(20) << ": r=" << r << dendl;
 

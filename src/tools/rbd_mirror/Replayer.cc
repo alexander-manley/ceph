@@ -10,13 +10,13 @@
 #include "common/common_init.h"
 #include "common/debug.h"
 #include "common/errno.h"
-#include "include/stringify.h"
 #include "cls/rbd/cls_rbd_client.h"
 #include "global/global_context.h"
 #include "librbd/ObjectWatcher.h"
 #include "librbd/internal.h"
 #include "Replayer.h"
 #include "Threads.h"
+#include "include/stringify.h"
 
 #define dout_subsys ceph_subsys_rbd_mirror
 #undef dout_prefix
