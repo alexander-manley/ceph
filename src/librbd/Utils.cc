@@ -1,8 +1,8 @@
 // -*- mode:C++; tab-width:8; c-basic-offset:2; indent-tabs-mode:t -*-
 // vim: ts=8 sw=2 smarttab
 
+#include "include/types.h"
 #include "librbd/Utils.h"
-#include "include/rbd_types.h"
 #include "include/stringify.h"
 
 namespace librbd {
